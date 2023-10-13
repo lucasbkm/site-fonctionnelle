@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agence de Voyages Éducatifs</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+        }
+
+        #destinations {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            padding: 2em;
+        }
+
+        .destination {
+            width: 30%;
+            margin: 1em;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s;
+        }
+
+        .destination:hover {
+            transform: scale(1.05);
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Agence de Voyages Éducatifs</h1>
+        <p>Des tours du monde axés sur la thématique du réchauffement climatique.</p>
+    </header>
+
+    <section id="destinations">
+        <article class="destination">
+            <h2>Découvrez la beauté fragile de la banquise.</h2>
+            <p>Comprenez l'impact du réchauffement climatique sur nos pôles. Voyagez durablement avec nous.</p>
+        </article>
+
+        <article class="destination">
+            <h2>Plongez au cœur de l'Amazonie.</h2>
+            <p>Explorez la majesté de la forêt tropicale et découvrez comment le changement climatique menace sa biodiversité. Participez à un voyage respectueux de la nature.</p>
+        </article>
+
+        <article class="destination">
+            <h2>Traversez les mystères du Sahara.</h2>
+            <p>Apprenez comment le désert évolue avec le réchauffement climatique. Embarquez pour une aventure éco-responsable.</p>
+        </article>
+    </section>
+
+    <footer>
+        <p>Rejoignez-nous pour un voyage éducatif axé sur le réchauffement climatique. Engagez-vous pour un futur durable.</p>
+    </footer>
+</body>
+</html>
